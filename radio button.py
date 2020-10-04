@@ -1,0 +1,10 @@
+from tkinter import *
+root = Tk()
+root.geometry('300x300')
+v = IntVar()
+Radiobutton(root, text='bhoomi', variable=v, value=1).pack(anchor=N)
+Radiobutton(root, text='darshana', variable=v, value=2).pack(anchor=SE)
+Radiobutton(root, text='anjali', variable=v, value=3).pack(anchor=SW)
+Radiobutton(root, text='jeenal', variable=v, value=4).pack(anchor=W)
+Radiobutton(root, text='fenu', variable=v, value=5).pack(anchor=CENTER)
+mainloop()
